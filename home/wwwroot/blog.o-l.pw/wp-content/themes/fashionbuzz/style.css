@@ -1,0 +1,168 @@
+/*
+Theme Name: Fashionbuzz
+Theme URI: http://flythemes.net/wordpress-themes/fashionbuzz-wordpress-theme/
+Author: Flythemes
+Author URI: http://flythemes.net
+Description: FashionBuzz WordPress theme created by flythemes. This theme is best use for fashion, photography and portfolio industries but by using theme features this will be the useful for other industries too. This theme comes with the plenty of options which make this theme easy to use for every user. This theme is fully responsive craeted with bootstrap and well perform with all the resolutions. This is a cross bowser compatible theme working fine with every broswer. Check demo at: http://flythemes.net/demo/fashionbuzz/
+
+Version: 1.2.3
+License: GNU General Public License
+License URI: license.txt
+Text Domain: fashionbuzz
+Tags: gray, black, dark, one-column, two-columns, left-sidebar, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, full-width-template, sticky-post, threaded-comments, translation-ready, photoblogging
+
+FashionBuzz WordPress Theme has been created by Flythemes(flythemes.net), 2015.
+FashionBuzz WordPress Theme is released under the terms of GNU GPL
+*/
+*{ margin:0; padding:0; outline:none;}
+body{ margin:0; padding:0;  background-color:#000000; font-family:arial !important; font-size:12px !important; line-height:22px !important; color:#ffffff !important;}
+/*img{ margin:0; padding:0; border:none; max-width:100%; height:auto; }
+section img{max-width:100%;}*/
+h1,h2,h3,h4,h5,h6{ margin:0; padding:0;}
+.content ul, .content  ol{ margin-left:14px;}
+p{ margin:0; padding:0;}
+a{ text-decoration:none; color:#0fa5d9;}
+a:hover{ text-decoration:none; color:#666;}
+ul{ margin:0 0 0 15px; padding:0;}
+.alignleft, img.alignleft {display: inline; float: left; margin-right:45px; margin-top:4px; margin-bottom:20px; padding:0; }
+.alignright, img.alignright { display: inline; float: right; }
+.aligncenter, img.aligncenter { clear: both; display: block; margin-left: auto; margin-right: auto; margin-top:0; }
+.alignnone{ width:auto !important; height:auto; margin:0; padding:0;}
+.wp-caption.alignnone img{ width:auto; height:auto;}
+.comment-list .comment-content ul { list-style:none; margin-left:15px;}
+.comment-list .comment-content ul li{margin:5px;}
+.clear{ clear:both;}
+.sticky{ background-color:#2e2e2e; padding:10px;}
+.wp-caption p.wp-caption-text {font-size: 11px; line-height: 17px; margin: 0; padding: 0 4px 5px;}
+.gallery-caption {margin-left: 0;}
+.bypostauthor{ margin:0; padding:0;}
+
+.logo{ float:left; margin:0; padding:0;}
+.logo a{ color:#ffffff;}
+.logo h1{ font:400 30px Merienda One; margin:0; padding:0;}
+.logo p{ color:#ffffff;}
+.toggleMenu{display:none;}
+.nav{ float:right; margin:22px 0 0; padding:0; font:400 16px 'Oswald'; text-transform:uppercase;}
+.nav ul{ margin:0; padding:0; list-style:none;}
+.nav ul li{ display:inline-block; margin-left:20px; position:relative;}
+.nav ul li a{ color:#ffffff;}
+.fa::before, fa::after{ display:table-cell; vertical-align:middle;}
+.site-aligner{ width:1178px; margin:0 auto;}
+
+.reference{position:inherit;background-color:rgba(0,0,0,0.5);width:100%;text-shadow:1px 1px 1px #000;z-index:999;padding:13px 0; margin-top:50px;}
+.description{top:0;right:0;text-shadow:1px 1px 1px #000;z-index:999;width:100%;background-color:rgba(0,0,0,0.6);padding:10px 0 8px;}
+
+.description span{color:#fff;text-transform: uppercase;text-decoration:none;font-size:10px;}
+a.last{line-height:23px;color:#fff;text-transform: uppercase;text-decoration:none;font-size:10px;}
+.slide-title{ margin-bottom:15px;}
+.slide-description{ padding:20px;}
+
+.content{background-color:rgba(0,0,0,0.6); padding:0 15px 20px;}
+.sidebar{background-color:rgba(0,0,0,0.6); padding:0 15px 20px;}
+h3.widget-title{text-transform:uppercase; padding-top:27px; padding-bottom:15px; margin-bottom:20px; border-bottom:1px solid #cccccc; font:400 18px 'Roboto Condensed'; color:#ffffff;}
+h1.entry-title, h1.page-title{ padding-top:27px; text-transform:uppercase; font:700 30px 'Roboto Condensed'; color:#ffffff;}
+.social-icons{ float:right; text-align:center;}
+.social-icons a {border-radius: 29px;display: table;float: left;height: 25px;margin-left: 6px;vertical-align: 0;width: 25px;}
+.social-icons a:hover{text-decoration:none;}
+.social-icons .facebook{ background:#ffffff url(images/fb.png) no-repeat center center;}
+.social-icons .twitter{ background:#ffffff url(images/twitter.png) no-repeat center center;}
+.social-icons .linkedin{ background:#ffffff url(images/linkedin.png) no-repeat center center;}
+.social-icons .gplus{ background:#ffffff url(images/g+.png) no-repeat center center;}
+.social-icons .flickr{ background:#ffffff url(images/flickr.png) no-repeat center center;}
+
+#sidebar ul{ margin:0 0 0 11px; padding:0;}
+#sidebar ul li{ padding-bottom:6px;}
+#sidebar ul li a{ color:#ffffff; text-decoration:none;}
+form.search-form label{ display:inherit !important;}
+input[type="search"].search-field{ padding:5px; border:1px solid #cccccc; float:left; color:#222222; font-family:arial; font-weight:400;}
+input[type="submit"].search-submit{ border:none; padding:6px 12px;}
+#sidebar select{ width:100%; padding:5px 0; border:1px solid #cccccc; color:#222222;}
+h2.entry-title{ font:400 20px 'Roboto Condensed';}
+h2.entry-title a{ color:#ffffff;}
+.post-date, .post-comment, .post-categories{ display:inline-block; margin-bottom:15px; color:#f1f1f1}
+.post-thumb img{ margin-bottom:25px; max-width:100%; border:4px solid #ffffff; margin-right:30px; float:left;}
+p.read-more{ margin-top:20px;}
+p.read-more a{ background-color:#222222; color:#ffffff; padding:10px 30px; transition:0.5s;}
+p.read-more a:hover{ background-color:#ffffff; color:#222222;}
+.blog-post-repeat{ border-bottom:1px solid #cccccc; padding-bottom:20px;}
+ol.comment-list, ol.comment-list li ul{ list-style:none;}
+ol.comment-list li ul{ margin-top:10px;}
+h1.screen-reader-text{ font:400 30px 'Roboto Condensed'; text-transform:capitalize; margin:0 0 15px; padding:0;}
+h2.comments-title{ font:400 20px 'Roboto Condensed';}
+#calendar_wrap td{ padding:10px;}
+.pagination{display:table; clear:both;}
+.pagination ul{list-style:none; margin:20px 0;}
+.pagination ul li{display:inline; float:left; margin-right:5px;}
+.pagination ul li span, .pagination ul li a{background:#303441; color:#fff; padding:5px 10px; display:inline-block;}
+.pagination ul li .current, .pagination ul li a:hover{background:#ff8a00; color:#ffffff;}
+
+
+/* ----- Contact Form --------- */
+.wpcf7-form{ margin:0; padding:0;}
+.wpcf7-form input[type="text"], .wpcf7-form input[type="email"], .wpcf7-form input[type="tel"]{ padding:5px; border:1px solid #cccccc; margin-top:3px; color:#222222;}
+.wpcf7-form input[type="submit"]{ background-color:#222222; color:#ffffff; border:none; padding:7px 25px; margin-top:20px;}
+.wpcf7-form textarea{ border:1px solid #cccccc; width:500px; margin-top:3px; padding:5px; color:#222222;}
+
+/* --- Woocomeerce --- */
+.woocommerce-ordering select{ margin:0; padding:5px; border:1px solid #cccccc; color:#222222;}
+ul.products{ margin:0; padding:0;}
+.woocommerce ul.products li.product h3{ font-family:'Roboto Condensed'; font-size:20px;}
+.woocommerce ul.products li.product span.price{ font-size:15px; color:#cccccc;}
+.woocommerce ul.products li.product a.button{ background-color:#222222; color:#ffffff; border:none; padding:10px 25px;}
+
+@media screen and (max-width:479px) {
+.logo{ float:none; margin:0 auto; text-align:center;}
+.toggle a{width:100%; color:#ffffff; background:url(images/mobile_nav_right.png) no-repeat right center #000000; padding:10px; margin-top:20px; font-size:16px;}
+.toggle a.active{color:#ffffff;}
+.nav{display:none;}
+.nav{ float:none; margin:0; padding:0;}
+.nav ul{ margin:0; padding:0;}
+.nav ul li{ display:block; margin:0; padding:5px 0 5px 10px; letter-spacing:4px;}
+.tf_thumbs, .tf_content h2, .tf_content p{ display:none;}
+#tf_bg img{ left:0 !important;}
+.site-aligner{ width:95%;}
+.reference{ text-align:center;}
+.social-icons{ margin-top:15px; float:none; text-align:center;}
+.social-icons a{ margin-bottom:10px; display:inline-table; vertical-align:middle; float:none;}
+.tf_next, .tf_prev{ right:271px;}
+#contactform_main textarea{ width:100%;}
+#slidecaption{ left:10px !important; width:auto !important;}
+.slide-title{ font-size:19px !important;}
+.slide-description{ font-size:10px !important; line-height:16px !important; display:none;}
+#controls-wrapper{ left:0px !important; bottom:105px !important; display:none !important;}
+}
+
+@media screen and (max-width:719px) and (min-width:480px) { 
+.logo{ float:none; margin:0 auto; text-align:center;}
+.toggle a{width:100%; color:#ffffff; background:url(images/mobile_nav_right.png) no-repeat right center #000000; padding:10px 10px; margin-top:20px; font-size:16px;}
+.toggle a.active{color:#ffffff;}
+.nav{display:none;}
+.nav{ float:none; margin:0; padding:0;}
+.nav ul{ margin:0; padding:0;}
+.nav ul li{ display:block; margin:0; padding:5px 0 5px 10px; letter-spacing:4px;}
+.tf_thumbs, .tf_content h2, .tf_content p{ display:none;}
+#tf_bg img{ left:0 !important;}
+.site-aligner{ width:95%;}
+.reference{ text-align:center;}
+.social-icons{ margin-top:15px; float:none; text-align:center;}
+.social-icons a{ margin-bottom:10px; display:inline-table; vertical-align:middle; float:none;}
+.tf_next, .tf_prev{ right:418px;}
+#slidecaption{ left:10px !important; width:auto !important; bottom:153px !important; display:none;}
+}
+@media screen and (max-width:1169px) and (min-width:720px){
+.tf_thumbs{ display:none;}
+.site-aligner{ width:95%;}
+#tf_bg img{ left:0 !important;}
+.tf_content h2{ font-size:28px !important;}
+.tf_content p{ font-size:13px !important; line-height:23px; width:570px;}
+.tf_next, .tf_prev{ right:32px;}
+#slidecaption, #controls-wrapper{ left:10px !important;}
+.slide-title{ font-size:35px !important;}
+.slide-description{ font-size:16px !important; line-height:24px !important;}
+}
+@media screen and (min-width:720px){
+.nav ul li ul{ display:none;}
+.nav ul li:hover ul{ display:block; position:absolute; background-color:rgba(0,0,0,0.6); width:200px; padding:5px 0; z-index:9;}
+.nav ul li:hover ul li{ display:block; padding:5px 0;}
+}
+
